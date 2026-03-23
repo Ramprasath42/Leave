@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+}
+ 
+/* CONTAINER */
+.container {
+  padding: 20px;
+}
+ 
+/* NAVIGATION */
+.nav {
+  margin-bottom: 20px;
+}
+ 
+.nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: bold;
+}
+ 
+/* DASHBOARD */
+.summary {
+  margin-bottom: 20px;
+}
+ 
+.summary p {
+  margin: 5px 0;
+}
+ 
+/* FILTER BUTTONS */
+.filter-btn {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+}
+ 
+.filter-btn.active {
+  background: #2563eb;
+  color: white;
+}
+ 
+/* CARD */
+.card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  background: white;
+}
+ 
+/* STATUS COLORS */
+.status {
+  font-weight: bold;
+}
+ 
+.status.Pending {
+  color: orange;
+}
+ 
+.status.Approved {
+  color: green;
+}
+ 
+.status.Rejected {
+  color: red;
+}
+ 
+/* BUTTONS */
+.btn {
+  padding: 6px 10px;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+}
+ 
+.btn-approve {
+  background: green;
+  color: white;
+}
+ 
+.btn-reject {
+  background: orange;
+  color: white;
+}
+ 
+.btn-delete {
+  background: red;
+  color: white;
+}
+ 
+/* FORM */
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 250px;
+}
+ 
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.modal-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+ 
+.modal-box input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+/* HEADER LAYOUT */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+ 
+/* DROPDOWN STYLING */
+.role-dropdown {
+  padding: 6px 10px;  
+  border-radius: 10px;
+  border: 1px solid #ef4848;
+  background: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+ 
+/* HOVER EFFECT */
+.role-dropdown:hover {
+  border-color: #a80fce;
+}
+ 
+/* FOCUS */
+.role-dropdown:focus {
+  outline: none;
+  border-color: #0135a5;
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.4);
+}
