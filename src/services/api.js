@@ -1,7 +1,7 @@
 import axios from "axios";
  
 const API = axios.create({
-baseURL: "http://localhost:5000/api"
+baseURL: "https://leave-backend-jziu.onrender.com/api/leaves"
 });
  
 export const createLeave = (data) => API.post("/leaves", data); 

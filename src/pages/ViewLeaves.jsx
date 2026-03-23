@@ -43,7 +43,7 @@ setLeaves(res.data);
   });
   }
   const updateLeaves = async () => {
-await fetch(`http://localhost:5000/api/leaves/${editData._id}`, {
+await fetch(`https://leave-backend-jziu.onrender.com/api/leaves/${editData._id}`, {
     method: "PUT",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(editData),
