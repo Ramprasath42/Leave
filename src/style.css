@@ -161,3 +161,11 @@ button {
   border-color: #0135a5;
   box-shadow: 0 0 10px rgba(37, 99, 235, 0.4);
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;
+  margin-top: 20px;
+  gap: 8px;                  /* spacing between buttons */
+}

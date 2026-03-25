@@ -2,11 +2,12 @@ import axios from "axios";
  
 const API = axios.create({
 baseURL: "https://leave-backend-jziu.onrender.com/api"
+
 });
  
 export const createLeave = (data) => API.post("/leaves", data); 
 
-export const getLeaves = () => API.get("/leaves");
+export const getLeaves = (params) => API.get("/leaves",{params});
 
 export const deleteLeave = (id) => API.delete(`/leaves/${id}`);
 
